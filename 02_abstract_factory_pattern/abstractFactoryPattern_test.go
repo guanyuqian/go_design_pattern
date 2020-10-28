@@ -1,4 +1,4 @@
-package testing
+package _2_abstract_factory_pattern
 
 import (
 	"awesomeProject/implement"
@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+//步骤 8
+//使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
 func TestGetFactory(t *testing.T) {
 
 	tests := []struct {

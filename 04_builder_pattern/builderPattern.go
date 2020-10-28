@@ -1,4 +1,6 @@
-package auxiliary
+package _4_builder_pattern
+
+// 建造者模式
 
 // 步骤 1
 // 创建一个表示食物条目和食物包装的接口。
@@ -85,4 +87,45 @@ func (receiver Pepsi) Price() float64 {
 
 func (receiver Pepsi) Name() string {
 	return "Pepsi"
+}
+
+//步骤 5
+//创建一个 Meal 类，带有上面定义的 Item 对象。
+type Meal struct {
+	Items []Item
+}
+
+func (receiver *Meal) addItem(item Item) {
+	receiver.Items = append(receiver.Items, item)
+}
+
+//func (receiver Meal) getCost() (cost float64) {
+//	for _, item := range receiver.Items {
+//		cost += item.Price()
+//	}
+//	return
+//}
+
+func (receiver Meal) ShowItems() (name, pack string, price float64) {
+	for _, item := range receiver.Items {
+		name += item.Name()
+		price += item.Price()
+		pack += item.Packing().Pack()
+	}
+	return
+}
+
+//步骤 6
+//创建一个 MealBuilder 类，实际的 builder 类负责创建 Meal 对象。
+//go中直接实现接口函数
+func PrepareVegMeal() (meal Meal) {
+	meal.addItem(new(VegBurger))
+	meal.addItem(new(Coke))
+	return
+}
+
+func PrepareNonVegMeal() (meal Meal) {
+	meal.addItem(new(ChickenBurger))
+	meal.addItem(new(Pepsi))
+	return
 }

@@ -1,4 +1,4 @@
-package testing
+package _1_factory_pattern
 
 import (
 	"awesomeProject/implement"
@@ -6,7 +6,8 @@ import (
 	"testing"
 )
 
-// 测试简单方法模式
+//步骤 4
+//使用该工厂，通过传递类型信息来获取实体类的对象。
 func TestFactoryPattern(t *testing.T) {
 	tests := []struct {
 		name string

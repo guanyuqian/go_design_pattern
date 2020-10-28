@@ -1,7 +1,9 @@
-package implement
+package _3_singleton_pattern
 
 import "sync"
 
+//步骤 1
+//创建一个 Singleton 类。
 var lazyInstance *Instance
 var hungryInstance *Instance
 

@@ -1,4 +1,4 @@
-package testing
+package _3_singleton_pattern
 
 import (
 	"awesomeProject/implement"
@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+//步骤 2
+//从 singleton 类获取唯一的对象。
 func TestGetHungryInstance(t *testing.T) {
 	tests := []struct {
 		name string
@@ -55,4 +57,3 @@ func TestGetLazyInstance(t *testing.T) {
 		})
 	}
 }
-

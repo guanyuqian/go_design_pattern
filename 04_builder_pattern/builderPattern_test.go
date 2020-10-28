@@ -1,10 +1,12 @@
-package testing
+package _4_builder_pattern
 
 import (
 	"awesomeProject/implement"
 	"testing"
 )
 
+//步骤 7
+//BuiderPatternDemo 使用 MealBuider 来演示建造者模式（Builder Pattern）。
 func TestMeal_showIterms(t *testing.T) {
 	var tests = []struct {
 		name      string
