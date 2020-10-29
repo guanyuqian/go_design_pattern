@@ -1,7 +1,6 @@
 package _1_factory_pattern
 
 import (
-	"awesomeProject/implement"
 	"reflect"
 	"testing"
 )
@@ -19,7 +18,7 @@ func TestFactoryPattern(t *testing.T) {
 		{name: "Circle", args: "Circle", want: "Circle"},
 	}
 
-	shapeFactory := implement.ShapeFactory{}
+	shapeFactory := ShapeFactory{}
 	for _, tc := range tests {
 		got := shapeFactory.GetShape(tc.args).Draw()
 		if !reflect.DeepEqual(got, tc.want) {

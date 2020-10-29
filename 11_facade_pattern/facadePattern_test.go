@@ -1,4 +1,4 @@
-package _1_facade_Patten
+package _1_facade_pattern
 
 import "testing"
 

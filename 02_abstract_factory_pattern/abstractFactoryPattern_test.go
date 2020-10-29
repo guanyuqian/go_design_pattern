@@ -1,7 +1,6 @@
 package _2_abstract_factory_pattern
 
 import (
-	"awesomeProject/implement"
 	"reflect"
 	"testing"
 )
@@ -15,13 +14,13 @@ func TestGetFactory(t *testing.T) {
 		args string
 		want string
 	}{
-		{"Color", "Color", "Color"},
+		{"color", "color", "color"},
 		{"Shape", "Shape", "Shape"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			// 测试抽象工厂
-			factory := implement.GetFactory(tt.args)
+			factory := GetFactory(tt.args)
 			if !reflect.DeepEqual(factory.Name(), tt.want) {
 				t.Errorf("GetFactory() = %v, want %v", factory.Name(), tt.want)
 			}
@@ -39,7 +38,7 @@ func TestGetFactory(t *testing.T) {
 			for _, ctt := range colorTests {
 				t.Run(ctt.name, func(t *testing.T) {
 					color := factory.GetColor(ctt.args)
-					if factory.Name() != "Color" {
+					if factory.Name() != "color" {
 						if !reflect.DeepEqual(color, nil) {
 							t.Errorf("GetFactory() = %v, want %v", color, nil)
 						}

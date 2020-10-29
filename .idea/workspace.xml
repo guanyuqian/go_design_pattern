@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80d56b35-c432-40f5-af72-5ecd897ce5cd" name="Default Changelist" comment="add config file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_abstract_factory_pattern/abstractFactoryPattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_abstract_factory_pattern/abstractFactoryPattern.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_decorator_pattern/decoratorPattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_decorator_pattern/decoratorPattern.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_facade_Patten/facadePattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_facade_Patten/facadePattern.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jSIce0Nb5mcJQ9eS1ajpNGy8QE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/auxiliary" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07_bridge_pattern" />
+      <recent name="$PROJECT_DIR$/06_adapter_pattern" />
+      <recent name="$PROJECT_DIR$/01_factory_pattern" />
+      <recent name="$PROJECT_DIR$/05_prototype_pattern" />
+      <recent name="$PROJECT_DIR$/02_abstract_factory_pattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.go test go_design_pattern">
+    <configuration name="go build go_design_pattern" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_design_pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_design_pattern" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRedShapeDecorator_Draw in go_design_pattern/10_decorator_pattern" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_design_pattern" />
+      <working_directory value="$PROJECT_DIR$/10_decorator_pattern" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_design_pattern/10_decorator_pattern" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRedShapeDecorator_Draw\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestShapeMaker_drawCircle in go_design_pattern/11_facade_Patten" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_design_pattern" />
+      <working_directory value="$PROJECT_DIR$/11_facade_Patten" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_design_pattern/11_facade_Patten" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestShapeMaker_drawCircle\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go_design_pattern" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_design_pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="go_design_pattern" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test testing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_design_pattern" />
+      <working_directory value="$PROJECT_DIR$/testing" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="go_design_pattern" />
+      <directory value="$PROJECT_DIR$/testing" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.go test go_design_pattern" />
+        <item itemvalue="Go Build.go build go_design_pattern" />
+        <item itemvalue="Go Test.TestShapeMaker_drawCircle in go_design_pattern/11_facade_Patten" />
+        <item itemvalue="Go Test.TestRedShapeDecorator_Draw in go_design_pattern/10_decorator_pattern" />
+        <item itemvalue="Go Test.go test testing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 再次提交7个设计模式，并修改文件结构&#10;&#10;建造者模式&#10;原型模式&#10;适配器模式&#10;桥接模式&#10;过滤器模式&#10;组合模式&#10;装饰器模式&#10;外观模式" />
+    <MESSAGE value="add config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="374" key="#Scopes" timestamp="1603861236688">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="710" y="374" key="#Scopes/0.0.1920.1080@0.0.1920.1080" timestamp="1603861236688" />
+    <state x="705" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1603867068809">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="705" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603867068809" />
+    <state x="635" y="222" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603856843217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="635" y="222" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603856843217" />
+    <state width="1390" height="463" key="GridCell.Tab.0.bottom" timestamp="1603955576378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1390" height="463" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603955576378" />
+    <state width="1870" height="573" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603875322706" />
+    <state width="1390" height="463" key="GridCell.Tab.0.center" timestamp="1603955576377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1390" height="463" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603955576377" />
+    <state width="1870" height="573" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603875322705" />
+    <state width="1390" height="463" key="GridCell.Tab.0.left" timestamp="1603955576377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1390" height="463" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603955576377" />
+    <state width="1870" height="573" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603875322705" />
+    <state width="1390" height="463" key="GridCell.Tab.0.right" timestamp="1603955576378">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1390" height="463" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603955576378" />
+    <state width="1870" height="573" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603875322706" />
+    <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1603874442759">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1870" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603874442759" />
+    <state width="1870" height="363" key="GridCell.Tab.1.center" timestamp="1603874442758">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1870" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603874442758" />
+    <state width="1870" height="363" key="GridCell.Tab.1.left" timestamp="1603874442757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1870" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603874442757" />
+    <state width="1870" height="363" key="GridCell.Tab.1.right" timestamp="1603874442758">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1870" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603874442758" />
+    <state x="64" y="3" key="SettingsEditor" timestamp="1603956358886">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="64" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603956358886" />
+    <state x="536" y="110" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603859286509" />
+    <state x="345" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603955656300">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="345" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603955656300" />
+    <state x="460" y="202" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603875414217" />
+    <state x="740" y="271" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1603852697030">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="271" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603852697030" />
+    <state x="744" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603873354879">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="744" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603873354879" />
+    <state x="252" y="87" width="740" height="784" key="find.popup" timestamp="1603956977738">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="252" y="87" width="740" height="784" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603956977738" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603854784283">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603854784283" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1603857650544">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603857650544" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/11_facade_Patten/facadePattern.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/11_facade_Patten/facadePattern_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/11_facade_Patten/facadePattern_test.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="CloneableShape" language="go" />
+        <watch expression="cloneableShape" language="go" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

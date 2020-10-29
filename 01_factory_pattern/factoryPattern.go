@@ -15,7 +15,10 @@ type Color interface {
 //创建实现接口的实体类。
 type Rectangle struct{}
 type Square struct{}
-type Circle struct{}
+type Circle struct {
+	Color        string
+	X, Y, Radius int
+}
 
 func (r Rectangle) Draw() string {
 	return "Rectangle"
@@ -85,5 +88,5 @@ func (s ColorFactory) GetShape(shape string) Shape {
 	return nil
 }
 func (s ColorFactory) Name() string {
-	return "Color"
+	return "color"
 }

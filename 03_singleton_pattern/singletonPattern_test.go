@@ -1,7 +1,6 @@
 package _3_singleton_pattern
 
 import (
-	"awesomeProject/implement"
 	"reflect"
 	"testing"
 )
@@ -26,7 +25,7 @@ func TestGetHungryInstance(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := implement.GetHungryInstance(); !reflect.DeepEqual(got.Counter, tt.want) {
+			if got := GetHungryInstance(); !reflect.DeepEqual(got.Counter, tt.want) {
 				t.Errorf("GetHungryInstance() = %v, want %v", got, tt.want)
 			}
 		})
@@ -51,7 +50,7 @@ func TestGetLazyInstance(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := implement.GetLazyInstance(); !reflect.DeepEqual(got.Counter, tt.want) {
+			if got := GetLazyInstance(); !reflect.DeepEqual(got.Counter, tt.want) {
 				t.Errorf("GetLazyInstance() = %v, want %v", got, tt.want)
 			}
 		})

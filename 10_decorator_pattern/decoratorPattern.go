@@ -1,7 +1,7 @@
 package _0_decorator_pattern
 
 import (
-	"go_design_pattern/01_factory_pattern"
+	"../01_factory_pattern"
 )
 
 //步骤 1

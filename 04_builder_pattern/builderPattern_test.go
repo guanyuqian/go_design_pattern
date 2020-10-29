@@ -1,7 +1,6 @@
 package _4_builder_pattern
 
 import (
-	"awesomeProject/implement"
 	"testing"
 )
 
@@ -10,14 +9,14 @@ import (
 func TestMeal_showIterms(t *testing.T) {
 	var tests = []struct {
 		name      string
-		meal      implement.Meal
+		meal      Meal
 		wantName  string
 		wantPack  string
 		wantPrice float64
 	}{
-		{"Veg Meal", implement.PrepareVegMeal(),
+		{"Veg Meal", PrepareVegMeal(),
 			"Veg Burger" + "Coke", "Wrapper" + "Bottle", 25.0 + 30.0},
-		{"Non-Veg Meal", implement.PrepareNonVegMeal(),
+		{"Non-Veg Meal", PrepareNonVegMeal(),
 			"Chicken Burger" + "Pepsi", "Wrapper" + "Bottle", 50.5 + 35.0},
 	}
 	for _, tt := range tests {

@@ -1,7 +1,7 @@
-package _1_facade_Patten
+package _1_facade_pattern
 
 import (
-	"go_design_pattern/01_factory_pattern"
+	"../01_factory_pattern"
 )
 
 //步骤 1
