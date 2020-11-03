@@ -5,7 +5,7 @@ import (
 	"unsafe"
 )
 
-func TestCircle_Draw(t *testing.T) {
+func TestFlyweightPattern(t *testing.T) {
 	tests := []struct {
 		name, color, want    string
 		x, y, radius         int

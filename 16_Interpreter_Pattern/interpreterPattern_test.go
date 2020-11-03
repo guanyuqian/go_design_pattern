@@ -1,8 +1,10 @@
-package _5_Interpreter_Pattern
+package _6_Interpreter_Pattern
 
 import "testing"
 
-func TestTerminalExpression_interpret(t *testing.T) {
+//步骤 3
+//InterpreterPatternDemo 使用 Expression 类来创建规则，并解析它们。
+func TestInterpreterPattern(t *testing.T) {
 	//规则：Robert 和 John 是男性
 	robert := TerminalExpression{"Robert"}
 	john := TerminalExpression{"John"}

@@ -7,7 +7,7 @@ import (
 
 //步骤 8
 //使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
-func TestGetFactory(t *testing.T) {
+func TestAbstractFactoryPattern(t *testing.T) {
 
 	tests := []struct {
 		name string

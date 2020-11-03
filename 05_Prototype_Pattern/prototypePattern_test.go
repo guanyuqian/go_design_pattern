@@ -7,7 +7,7 @@ import (
 
 //步骤 4
 //PrototypePatternDemo 使用 ShapeCache 类来获取存储在 Hashtable 中的形状的克隆。
-func TestGetShape(t *testing.T) {
+func TestPrototypePattern(t *testing.T) {
 
 	tests := []struct {
 		name string

@@ -6,7 +6,7 @@ import (
 
 //步骤 7
 //BuiderPatternDemo 使用 MealBuider 来演示建造者模式（Builder Pattern）。
-func TestMeal_showIterms(t *testing.T) {
+func TestBuilderPattern(t *testing.T) {
 	var tests = []struct {
 		name      string
 		meal      Meal

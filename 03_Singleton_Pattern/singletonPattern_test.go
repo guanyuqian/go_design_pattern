@@ -7,7 +7,7 @@ import (
 
 //步骤 2
 //从 singleton 类获取唯一的对象。
-func TestGetHungryInstance(t *testing.T) {
+func TestSingletonPattern(t *testing.T) {
 	tests := []struct {
 		name string
 		want int

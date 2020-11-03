@@ -6,7 +6,7 @@ import (
 
 //步骤 5
 //使用 Shape 和 DrawAPI 类画出不同颜色的圆。
-func TestDrawCircle_Draw(t *testing.T) {
+func TestBridgePattern(t *testing.T) {
 	type fields struct {
 		radius  int
 		x       int

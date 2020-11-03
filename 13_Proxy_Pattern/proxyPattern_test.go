@@ -4,7 +4,7 @@ import "testing"
 
 //步骤 3
 //当被请求时，使用 ProxyImage 来获取 RealImage 类的对象。
-func TestProxyImage_display(t *testing.T) {
+func TestProxyPattern(t *testing.T) {
 	fileName := "test_10mb.jpg"
 	tests := []struct {
 		name string

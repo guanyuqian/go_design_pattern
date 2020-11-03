@@ -1,4 +1,4 @@
-package _5_Interpreter_Pattern
+package _6_Interpreter_Pattern
 
 import "strings"
 

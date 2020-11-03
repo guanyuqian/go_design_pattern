@@ -6,7 +6,7 @@ import (
 
 //步骤 5
 //使用 AudioPlayer 来播放不同类型的音频格式。
-func TestAudioPlayer_play(t *testing.T) {
+func TestAdapterPattern(t *testing.T) {
 	type args struct {
 		audioType string
 		fileName  string

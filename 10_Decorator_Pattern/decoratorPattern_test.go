@@ -2,7 +2,7 @@ package _0_Decorator_Pattern
 
 import "testing"
 
-func TestRedShapeDecorator_Draw(t *testing.T) {
+func TestDecoratorPattern(t *testing.T) {
 	type fields struct {
 		decoratedShape Shape
 	}
