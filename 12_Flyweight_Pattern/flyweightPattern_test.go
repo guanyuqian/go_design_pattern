@@ -20,18 +20,16 @@ func TestFlyweightPattern(t *testing.T) {
 			"Green,36,100,71", "Green", "Color :Green, x :36, y :100, radius :71", 36, 100, 71},
 	}
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			got := (*Circle)(unsafe.Pointer(getCircle(tt.color)))
-			if got.setArgs(tt.x, tt.y, tt.radius); got.Draw() != tt.want {
-				t.Errorf("Draw() = %v, want %v", got.Draw(), tt.want)
-			}
-			got2 := (*Circle)(unsafe.Pointer(getCircle(tt.color2)))
-			if got2.setArgs(tt.x2, tt.y2, tt.radius2); got2.Draw() != tt.want2 {
-				t.Errorf("Draw() = %v, want %v", got2.Draw(), tt.want2)
-			}
-			if got != got2 {
-				t.Errorf("Draw() = %v, want %v", got2.Draw(), tt.want2)
-			}
-		})
+		got := (*Circle)(unsafe.Pointer(getCircle(tt.color)))
+		if got.setArgs(tt.x, tt.y, tt.radius); got.Draw() != tt.want {
+			t.Errorf("Draw() = %v, want %v", got.Draw(), tt.want)
+		}
+		got2 := (*Circle)(unsafe.Pointer(getCircle(tt.color2)))
+		if got2.setArgs(tt.x2, tt.y2, tt.radius2); got2.Draw() != tt.want2 {
+			t.Errorf("Draw() = %v, want %v", got2.Draw(), tt.want2)
+		}
+		if got != got2 {
+			t.Errorf("Draw() = %v, want %v", got2.Draw(), tt.want2)
+		}
 	}
 }
