@@ -1,4 +1,4 @@
-package _3Strategy_Pattern
+package _3_Strategy_Pattern
 
 import "testing"
 

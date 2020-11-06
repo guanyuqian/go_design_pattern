@@ -1,4 +1,4 @@
-package _3Strategy_Pattern
+package _3_Strategy_Pattern
 
 //步骤 1
 //创建一个接口。

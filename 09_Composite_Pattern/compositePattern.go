@@ -29,7 +29,7 @@ func (receiver *Employee) remove(employee *Employee) {
 }
 
 func (receiver *Employee) toString() string {
-	return "Employee :[ Name : " +
+	return "Employee :[ name : " +
 		receiver.name +
 		", dept : " +
 		receiver.dept +

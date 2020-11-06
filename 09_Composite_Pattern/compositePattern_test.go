@@ -31,8 +31,8 @@ func init() {
 //使用 Employee 类来创建和打印员工的层次结构。
 
 func TestCompositePattern(t *testing.T) {
-	want := "Employee :[ Name : John, dept : CEO, salary :30000 ]"
-	want2 := [2]string{"Employee :[ Name : Robert, dept : Head Sales, salary :20000 ]", "Employee :[ Name : Michel, dept : Head Marketing, salary :20000 ]"}
+	want := "Employee :[ name : John, dept : CEO, salary :30000 ]"
+	want2 := [2]string{"Employee :[ name : Robert, dept : Head Sales, salary :20000 ]", "Employee :[ name : Michel, dept : Head Marketing, salary :20000 ]"}
 	if got := CEO.toString(); got != want {
 		t.Errorf("toString() = %v, want %v", got, want)
 	}

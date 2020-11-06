@@ -1,4 +1,4 @@
-package _2Null_Object_Pattern
+package _2_Null_Object_Pattern
 
 import (
 	"reflect"

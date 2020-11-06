@@ -16,10 +16,10 @@ type Stock struct {
 }
 
 func (receiver Stock) buy() string {
-	return "Stock [ Name: " + receiver.name + ",Quantity: " + strconv.Itoa(receiver.quantity) + " ] bought."
+	return "Stock [ name: " + receiver.name + ",Quantity: " + strconv.Itoa(receiver.quantity) + " ] bought."
 }
 func (receiver Stock) sell() string {
-	return "Stock [ Name: " + receiver.name + ",Quantity: " + strconv.Itoa(receiver.quantity) + " ] sold."
+	return "Stock [ name: " + receiver.name + ",Quantity: " + strconv.Itoa(receiver.quantity) + " ] sold."
 }
 
 //步骤 3

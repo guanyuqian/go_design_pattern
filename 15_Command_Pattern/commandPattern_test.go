@@ -12,7 +12,7 @@ func TestCommandPattern(t *testing.T) {
 	broker.takeOrder(&buyStockOrder)
 	broker.takeOrder(&sellStockOrder)
 	got := broker.placeOrders()
-	want := "Stock [ Name: ABC,Quantity: 10 ] bought.Stock [ Name: ABC,Quantity: 10 ] sold."
+	want := "Stock [ name: ABC,Quantity: 10 ] bought.Stock [ name: ABC,Quantity: 10 ] sold."
 	if got != want {
 		t.Errorf("placeOrders() = %v, want %v", got, want)
 	}

@@ -1,4 +1,4 @@
-package _2Null_Object_Pattern
+package _2_Null_Object_Pattern
 
 //步骤 1
 //创建一个抽象类。
